@@ -38,8 +38,8 @@ def set_cfg(cfg):
     cfg.gnn.train.weight_decay = 0.0
     # Maximal number of epochs
     cfg.gnn.train.epochs = 500
-    # Node feature type, options: ogb, TA, P, E
-    cfg.gnn.train.feature_type = 'TA'
+    # Node feature type, options: ogb, TA
+    cfg.gnn.train.feature_type = 'ogb'
     # Number of epochs with no improvement after which training will be stopped
     cfg.gnn.train.early_stop = 50
     # Base learning rate
